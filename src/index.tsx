@@ -15,7 +15,7 @@ createServer({
           amount: 400,
           type: 'deposit',
           category: 'food',
-          date: '20/02/2022',
+          createdAt: new Date(),
         },
       ];
     });
